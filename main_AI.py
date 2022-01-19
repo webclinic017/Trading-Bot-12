@@ -1808,8 +1808,8 @@ def normalizer1to1(arr_col, mono=True, sq=True, coef=1.0, division_by=2.0, preci
 
 
 def _1w_history_receiver( c_symbol ) :
-    api_key_history = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    api_secret_history = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    api_key_history = 'yours'
+    api_secret_history = 'yours'
     connected = False
     attempts = 5
     sleep(round(random.uniform(0.0, 7.0), 2))
@@ -1897,8 +1897,8 @@ def _1w_history_receiver( c_symbol ) :
 
 
 def _1d_history_receiver( args ) :
-    api_key_history = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    api_secret_history = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    api_key_history = 'yours'
+    api_secret_history = 'yours'
     connected = False
     attempts = 5
     sleep(round(random.uniform(0.0, 1.0), 2))
@@ -1996,8 +1996,8 @@ def _1d_history_receiver( args ) :
 
 
 def _1h_history_receiver( args ) :
-    api_key_history = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    api_secret_history = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    api_key_history = 'yours'
+    api_secret_history = 'yours'
     connected = False
     attempts = 5
     sleep(round(random.uniform(0.0, 1.0), 2))
@@ -2097,8 +2097,8 @@ def _1h_history_receiver( args ) :
 
 
 def _5m_history_receiver( args ) :
-    api_key_history = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    api_secret_history = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    api_key_history = 'yours'
+    api_secret_history = 'yours'
     connected = False
     attempts = 5
     sleep(round(random.uniform(0.0, 1.0), 2))
@@ -2199,8 +2199,8 @@ def _5m_history_receiver( args ) :
 
 
 def _last_candle_receiver(args):
-    api_key_last_candle = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    api_secret_last_candle = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    api_key_last_candle = 'yours'
+    api_secret_last_candle = 'yours'
     connected = False
     attempts = 2
     sleep(round(random.uniform(0.0, 0.5), 2))
@@ -2380,8 +2380,8 @@ def topup_bnb(bnb_client, min_balance=0.02, top_up=0.1):
 
 
 if __name__ == '__main__':
-    Api_Key = 'iFgdjS62r1eZ4nFpGhPztCvDw5LwlfbTIRO6j6k12ZjsE8UgxxpfMjs4emMdRKgf'
-    Api_Secret = 'fPH0JLNrvm195CU15W7eOqFZ6DP7GBhO8YSbZ57PAegyoYVkC0WyC9zcqvCVSDLT'
+    Api_Key = 'yours'
+    Api_Secret = 'yours'
     client = Client(Api_Key, Api_Secret)
     server_time_dic = client.get_server_time()
     print(server_time_dic)
